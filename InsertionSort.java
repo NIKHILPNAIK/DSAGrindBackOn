@@ -7,7 +7,7 @@ public class InsertionSort {
 
         int n = arr.length;
 
-        
+
         for(int i=1; i<n; i++){
             int temp = arr[i];
  
@@ -18,6 +18,8 @@ public class InsertionSort {
                 j--;
             }
             arr[j+1] =temp;
+
+
         }
 
 
