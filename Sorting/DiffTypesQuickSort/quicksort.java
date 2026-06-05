@@ -1,3 +1,4 @@
+package DiffTypesQuickSort;
 import java.util.Arrays;
 
 public class quicksort {
@@ -39,7 +40,7 @@ public class quicksort {
 
     public static void main(String[] args) {
         
-        int [] arr = {3, 5, 4, 6, 7};
+        int [] arr = {3, 5, 7, 6 , 4};
 
         int n = arr.length;
 
